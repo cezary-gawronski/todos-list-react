@@ -1,0 +1,69 @@
+.tasks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tasks__item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 20px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.tasks__item--hiden {
+  display: none;
+}
+
+.tasks__contentContainer {
+  overflow: hidden;
+}
+
+.tasks__content {
+  color: rgb(17, 17, 17);
+  word-wrap: break-word;
+}
+
+.tasks__content--done {
+  text-decoration: red line-through;
+  color: gray;
+  font-style: italic;
+}
+
+.tasks__button {
+  background-color: transparent;
+  background-size: cover;
+  transition: 0.1s ease-out transform;
+  transition: 0.1s ease-out filter;
+  border: none;
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.tasks__button:hover,
+.tasks__button:focus {
+  transform: scale(1.02);
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
+}
+
+.tasks__button:active {
+  transform: scale(0.98);
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.4));
+}
+
+@media (max-width: 767px) {
+  .tasks__button {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tasks__button--toggleDone {
+  background-image: url("../img/green.png");
+}
+
+.tasks__button--remove {
+  background-image: url("../img/no-entry_26d4.png");
+}
