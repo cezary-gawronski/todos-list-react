@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62bd843bd995274c4b3c4e865963e37c",
+    "revision": "3d8ca13c520b70206fcc1d1417a359bb",
     "url": "/todos-list-react/index.html"
   },
   {
-    "revision": "5f20161ff3f08bbb52a1",
-    "url": "/todos-list-react/static/css/main.0dd41d86.chunk.css"
+    "revision": "5db393c5193190502e3b",
+    "url": "/todos-list-react/static/css/main.0bb9ea69.chunk.css"
   },
   {
     "revision": "3d6cb5e405fab4bd86e0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/todos-list-react/static/js/2.49298c4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f20161ff3f08bbb52a1",
+    "revision": "5db393c5193190502e3b",
     "url": "/todos-list-react/static/js/main.357838d6.chunk.js"
   },
   {
@@ -25,6 +25,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "d98b42d1368e4f077405b77b381e944c",
-    "url": "/todos-list-react/static/media/no-entry_26d4.d98b42d1.png"
+    "url": "/todos-list-react/static/media/deletebox.d98b42d1.png"
   }
 ]);
